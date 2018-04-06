@@ -1,0 +1,1 @@
+This program helps the user make positive changes in their life by taking activities that would like to work on and allocating the time throughout their weeks. 
