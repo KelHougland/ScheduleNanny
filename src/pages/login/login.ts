@@ -26,6 +26,7 @@ export class LoginPage {
   }
 
   signInUser(){
+    console.log(this.uname.value,this.pword.value);
 
   }
 

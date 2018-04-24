@@ -26,7 +26,7 @@ export class RegisterPage {
   }
 
   registerUser() {
-
+    console.log(this.uname.value, this.pword.value);
   }
 
 }
