@@ -9,8 +9,7 @@ import {RegisterPage} from '../register/register';
 })
 export class HomePage {
   
-  @ViewChild('username') uname;
-  @ViewChild('password') pword;
+
 
   constructor(public navCtrl: NavController, public alertCtrl: AlertController) {
 

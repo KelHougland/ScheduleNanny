@@ -1,6 +1,6 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Login</ion-title>
+    <ion-title>ScheduleNanny</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -10,22 +10,15 @@
     We are currently improving our services with the hopes of helping you achieve your dreams.
   </p>
 
-  <ion-list>
-      
-        <ion-item>
-          <ion-label floating>Username</ion-label>
-          <ion-input type="text" #username></ion-input>
-        </ion-item>
-      
-        <ion-item>
-          <ion-label floating>Password</ion-label>
-          <ion-input type="password" #password></ion-input>
-        </ion-item>
-      
-      </ion-list>
-
+  
+    <div id='topButtons'>
       <div padding>
           <button block ion-button (click)="signIn()">Sign In</button>
         </div>
+
+        <div padding>
+          <button block ion-button (click)="register()">Register</button>
+        </div>
+    </div>
 
 </ion-content>
