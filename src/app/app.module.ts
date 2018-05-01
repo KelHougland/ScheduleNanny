@@ -17,6 +17,8 @@ import { AddeventPage } from '../pages/addevent/addevent';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { Calendar } from '@ionic-native/calendar';
+
 
 const firebaseAuth = {
   apiKey: "AIzaSyDwnyRZtbZ_Q0LyaHSbaoadGg9iaPDDrzs",
@@ -60,6 +62,7 @@ const firebaseAuth = {
   providers: [
     StatusBar,
     SplashScreen,
+    Calendar,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
