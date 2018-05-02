@@ -14,7 +14,21 @@
 
 
 <ion-content padding>
-
-
+  <ion-list>
+      
+    <ion-item>
+      <ion-label floating>Name of Goal</ion-label>
+      <ion-input type="text" #goalname></ion-input>
+    </ion-item>
+      
+    <ion-item>
+      <ion-label floating>Hours per Week</ion-label>
+      <ion-input type="number" #hours></ion-input>
+    </ion-item>
+      
+  </ion-list>
+  <div padding>
+    <button block ion-button (click)="goaltimes()">Commit</button>
+  </div>
   
 </ion-content>
