@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Calendar } from '@ionic-native/calendar';
 
 /**
  * Generated class for the AddeventPage page.
@@ -15,11 +16,19 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class AddeventPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(private calendar: Calendar, public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad AddeventPage');
   }
+
+/**  this.calendar.createCalendar('MyCalendar').then(
+  (msg) => { console.log(msg); },
+  (err) => { console.log(err); }
+  );
+
+  */
+  
 
 }

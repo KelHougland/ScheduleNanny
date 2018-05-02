@@ -28,7 +28,7 @@ export class LoginPage {
 
   alert(message: string){
     this.alertCtrl.create({
-      title: 'Welcome Back!',
+      title: 'Welcome!',
       subTitle: message,
       buttons: ['OK']
     }).present();
@@ -43,6 +43,8 @@ export class LoginPage {
     })
     .catch(error => {
       console.log('got an error',error)
+      this.alert("Please check your Username and Password!");
+
     });
 
   }
